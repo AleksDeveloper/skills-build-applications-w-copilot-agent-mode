@@ -1,0 +1,70 @@
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.8), transparent 35%),
+    linear-gradient(180deg, #f6f8fc 0%, #eef3f9 38%, #e8eef6 100%);
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #172033 0%, #22304a 50%, #1b2a41 100%);
+}
+
+.app-brand {
+  letter-spacing: 0.05em;
+}
+
+.app-hero {
+  position: relative;
+}
+
+.app-eyebrow {
+  letter-spacing: 0.18em;
+  color: #5b6473;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.app-hero-card {
+  border-radius: 1.5rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+}
+
+.app-content-card {
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(12px);
+}
+
+.api-resource-page .card {
+  border-radius: 1.25rem;
+}
+
+.api-summary-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+}
+
+.app-data-table thead th {
+  border-bottom: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
+.app-data-table tbody td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.modal-backdrop.show {
+  opacity: 0.4;
+}
+
+.modal-content {
+  border-radius: 1.25rem;
+  border: 0;
+}
+
+.link-primary {
+  font-weight: 600;
+}
